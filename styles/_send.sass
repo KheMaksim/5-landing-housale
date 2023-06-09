@@ -1,0 +1,62 @@
+.send
+	margin-bottom: 122px
+	+tablet-landscape
+		margin-bottom: 90px
+	+mobile-landscape
+		margin-bottom: 61px
+	&__container
+		+dcenter
+		+width(1260px)
+		text-align: center
+		min-height: 437px
+		flex-direction: column
+		background: #FFF5DA
+		margin: 0 auto
+		padding: 0 10px
+	&__title
+		+font(36px,49px)
+		color: #323232
+		margin-bottom: 12px
+		+tablet-landscape
+			+font(27px,37px)
+	&__subtitle
+		+font(29px,40px)
+		color: #646464
+		margin-bottom: 27px
+		+tablet-landscape
+			+font(20px,30px)
+	&__form
+		+dcenter
+		+width(702px)
+		min-height: 78px
+		background: #FFFFFF
+		border: 1px solid #000000
+		padding: 0 24px
+		+mobile-landscape
+			min-height: 50px
+	&__image
+		width: 42px
+		height: 30px
+		cursor: pointer
+	&__tel
+		+width(503px)
+		height: 60px
+		color: #000
+		border: none
+		margin: 0 10px
+	&__btn
+		+font(29px,40px)
+		width: 152px
+		height: 61px
+		background: #ffc839
+		color: #000
+		cursor: pointer
+		+mobile-landscape
+			+font(20px,30px)
+			width: 132px
+			height: 41px
+
+.send form
+	width: 100%
+	display: flex
+	justify-content: center
